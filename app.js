@@ -53,7 +53,12 @@ const app = Vue.createApp({
 
   },
   methods:{
-    
+    add(){
+      this.counter++
+    },
+    reduce(){
+      this.counter = this.counter-1
+    }
   }
 });
 
